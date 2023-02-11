@@ -13,8 +13,6 @@ body {
   color: var(--color-secondary);
   background-color: var(--color-primary-inverted);
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -38,21 +36,11 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .web {
   color: var(--color-secondary-inverted);
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 /* посилання в шапці */
@@ -61,9 +49,6 @@ body {
   color: var(--color-primary);
   text-decoration: none;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 .header-link:hover,
@@ -79,6 +64,7 @@ body {
 .link-address {
   color: var(--color-secondary);
   text-decoration: none;
+  font-style: normal;
 }
 
 .link-address:hover,
@@ -113,35 +99,24 @@ body {
 
 .hero-title {
   color: var(--color-primary-inverted);
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.02em;
 }
 
 /* особливості */
-
-.our-feature {
-  background-color: var(--color-lihte);
-}
 
 .feature-titles {
   color: var(--color-primary);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
 }
 
 /* наші роботи */
-.our-works {
-  background-color: var(--color-lihte);
-}
 
-.work {
+.section-title {
   color: var(--color-primary);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -155,26 +130,15 @@ body {
   background-color: var(--color-inverted);
 }
 
-.our-team-list {
-  color: var(--color-primary);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-
 .team-title {
   background-color: var(--color-primary-inverted);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.02em;
 }
 
-.direction {
+.team-description {
   background-color: var(--color-primary-inverted);
   font-size: 16px;
   line-height: 1.5;
@@ -184,9 +148,7 @@ body {
 
 /* підвал */
 .footer {
-  color: var(--color-footer-text);
   background-color: var(--color-primary);
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -197,29 +159,21 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .web-footer {
   color: var(--color-secondary-inverted);
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+}
+
+.footer-text {
+  color: var(--color-footer-text);
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 /*  СТОРІНКА ПОРТФОЛІО */
-
-.section-filter {
-  background-color: var(--color-lihte);
-}
 
 /* кнопки */
 
@@ -242,14 +196,13 @@ body {
   background-color: var(--color-hover);
 }
 
-.filter-title {
+.portfolio-title {
   color: var(--color-primary);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
 }
 
-.title {
+.portfolio-text {
   color: var(--color-secondary);
 }
